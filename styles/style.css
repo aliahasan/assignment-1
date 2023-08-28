@@ -5,5 +5,55 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* HEADER STYLE  FORM HERE */
+
+.header-section {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-details,
+.header-photo {
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin: 0px 200px;
+}
+
+.header-photo img {
+    width: 100%;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: auto;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: none;
+    margin-top: 30px;
+
 }
