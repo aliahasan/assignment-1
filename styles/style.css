@@ -57,3 +57,115 @@ body {
     margin-top: 30px;
 
 }
+
+/* DISCOUNT-STYLE FROM HERR */
+
+.discount-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 50px 150px;
+    border: 1px solid red;
+}
+
+.discount-details,
+.discount-photo {
+    width: 50%;
+    margin: 0px 50px;
+}
+
+.discount-title {
+    margin-top: 50px;
+    padding-top: 20px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.of {
+    color: #E55473;
+}
+
+.discount-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* INSTAGRAM SECTION STYLE  IS FROM  HERE */
+
+.instagram-section-details {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.instagram-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* SUBSCRIPTION-STYLE IS FROM HERE */
+
+.subscription-section {
+    text-align: center;
+    margin: 100px 240px;
+    padding: 50px 0px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/Rectangle\ 9.png);
+    background-size: cover;
+}
+
+
+.subscription-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subscription-cuppon {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+input {
+    width: 600px;
+    border: none;
+    padding: 25px 20px;
+    margin: 0px 20px;
+    border-radius: 8px;
+    background: white;
+}
+
+::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
