@@ -281,12 +281,18 @@ input {
     font-size: 25px;
 }
 
+.icon {
+    height: 83px;
+    width: 77px;
+    margin-bottom: 20px;
+}
+
 .vision-description {
-    height: 350px;
+    height: 400px;
     width: 250px;
     background-color: white;
     box-shadow: 10px 10px 30px rgb(172, 170, 170);
-    padding: 50px 50px;
+    padding: 40px 70px 50px 50px;
     text-align: center;
     border-radius: 5px;
 }
@@ -297,6 +303,7 @@ input {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    text-align: center;
 }
 
 /* FOOTER STYLE IS FROM HERE */
