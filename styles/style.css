@@ -5,14 +5,12 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    /* font-family: 'Poppins', sans-serif; */
 }
 
 /* HEADER STYLE  FORM HERE */
 
 .header-section {
     display: flex;
-    /* border: 1px solid red; */
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
 }
@@ -20,7 +18,6 @@ body {
 .header-details,
 .header-photo {
     width: 50%;
-    /* border: 1px solid blue; */
     margin: 0px 200px;
 }
 
@@ -55,8 +52,82 @@ body {
     padding: 20px 43px;
     border: none;
     margin-top: 30px;
-
 }
+
+/* FEATURE STYLE IS FROM HERE */
+
+.feature-section {
+    margin: 100px 0px;
+}
+
+.feature-details {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.feature-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flower-one {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15)url(../images/pngwing\ 6.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.flower-two {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15)url(../images/pngwing\ 5.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.flower-three {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15)url(../images/pngwing\ 7.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.flowers-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 20px;
+}
+
 
 /* DISCOUNT-STYLE FROM HERR */
 
@@ -65,13 +136,22 @@ body {
     text-align: center;
     align-items: center;
     padding: 50px 150px;
-    border: 1px solid red;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: center;
 }
 
-.discount-details,
+.discount-details {
+    width: 80%;
+    margin: 0px 100px;
+
+}
+
 .discount-photo {
+    margin: 0px 100px;
+    display: flex;
     width: 50%;
-    margin: 0px 50px;
+    margin-left: 50px;
+
 }
 
 .discount-title {
@@ -93,6 +173,8 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+
+
 
 /* INSTAGRAM SECTION STYLE  IS FROM  HERE */
 
@@ -124,6 +206,7 @@ body {
     gap: 20px;
 }
 
+
 /* SUBSCRIPTION-STYLE IS FROM HERE */
 
 .subscription-section {
@@ -135,9 +218,9 @@ body {
     align-items: center;
     justify-content: center;
     background: url(../images/Rectangle\ 9.png);
+    background-position: center;
     background-size: cover;
 }
-
 
 .subscription-title {
     color: #272727;
@@ -145,7 +228,7 @@ body {
     font-weight: 800;
 }
 
-.subscription-cuppon {
+.subscription-coupon {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -168,4 +251,46 @@ input {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+}
+
+/* FOOTER STYLE IS FROM HERE */
+footer {
+    height: 300px;
+    background: #111010;
+    color: white;
+}
+
+.footer-details {
+    text-align: center;
+    padding: 75px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.flower {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
 }
